@@ -7,7 +7,7 @@ public abstract class Personagem {
     private Ataque a;
     private Movimento m;
 
-    public void setAtaque(Ataque a){
+    void setAtaque(Ataque a){
         this.a = a;
     }
 
@@ -15,7 +15,7 @@ public abstract class Personagem {
         a.atacar();
     }
 
-    public void setMovimento(Movimento m){
+    void setMovimento(Movimento m){
         this.m = m;
     }
 
